@@ -1,0 +1,113 @@
+@keyframes bigCircleSlide {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+
+    30% {
+        transform: translate3d(850px, 0px, 0px);
+        animation-timing-function: ease-out;
+    }
+
+    60% {
+        transform: translate3d(850px, 500px, 100px);
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        transform: translate3d(0px, 500px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@keyframes middleCircleSlide {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+
+    30% {
+        transform: translate3d(850px, 0px, 0px);
+        animation-timing-function: ease-out;
+    }
+
+    60% {
+        transform: translate3d(850px, 450px, 100px);
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        transform: translate3d(0px, 450px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@keyframes smaillCircleSlide {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+
+    30% {
+        transform: translate3d(800px, 0px, 0px);
+        animation-timing-function: ease-out;
+    }
+
+    60% {
+        transform: translate3d(800px, 400px, 100px);
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        transform: translate3d(0px, 400px, 0px);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+.blue-circle {
+    width: 200px;
+    height: 194px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid aqua;
+    animation: bigCircleSlide 3s infinite;
+}
+
+.red-circle {
+    width: 130px;
+    height: 125px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    animation: middleCircleSlide 3s infinite;
+}
+
+.pink-circle {
+    width: 100px;
+    height: 94px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 1px solid pink;
+    animation: smaillCircleSlide 3s infinite;
+}
+
+.orange-circle {
+    width: 80px;
+    height: 75px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px solid orange;
+    animation: smaillCircleSlide 3s infinite;
+}
